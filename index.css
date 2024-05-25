@@ -21,7 +21,8 @@ body{
     height: 100vh;
     overflow: auto;
 
-    background-image: linear-gradient(to right , rgb(33, 33, 33), black, black, rgb(33,33,33));
+    background-color: black;
+    /* background-image: linear-gradient(to right , rgb(33, 33, 33), black, black, rgb(33,33,33)); */
 }
 
 h1{
@@ -31,12 +32,14 @@ h1{
     color: rgb(60, 60, 60);
     position: sticky;
     display: block;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 234, 0);
+    margin: 0;
 }
 
 .profile img{
     width: 70%;
     padding: 10px;
+    margin: 0;
     margin-left: auto;
     margin-right: auto;
 }
