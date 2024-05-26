@@ -28,6 +28,7 @@ body{
 h1{
     font-family: 'Arial Narrow', Arial, sans-serif;
     font-weight: normal;
+    font-size: 50px;
     text-align: center;
     color: rgb(60, 60, 60);
     position: sticky;
@@ -43,6 +44,11 @@ h1{
     margin-left: auto;
     margin-right: auto;
 }
+
+/* img:hover{
+    transform: scale(2);
+    z-index: 1000000;
+} */
 
 #altThumbnail{
     width: 40%;
