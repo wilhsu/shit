@@ -74,3 +74,27 @@ h1{
 .yz{
     background-color: rgb(252, 47, 255);
 } */
+
+
+@media only screen and (max-width: 600px) {
+    .stripCon {
+      flex-direction: column;
+    }
+
+    .bigCon{
+        display: flex;
+    }
+
+    .profile{
+        flex-direction: row;
+        width: 100vw;
+        overflow-y: hidden;
+    }
+
+    h1{
+        text-align: left;
+        font-size: 25px;
+    }
+
+
+  }
