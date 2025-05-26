@@ -7,76 +7,174 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>shit zine & friends</title>
+        <title>The Sh!t Zine bathroom</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/x-icon" href="assets/poop.png">
-        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&display=swap" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="index.css"> -->
+        <style>
+
+            body{
+                margin: 0;
+                background-color: rgb(16, 5, 5);
+            }
+
+            #bigCon{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100vw;
+                height: 100vh;
+                overflow-x: hidden;
+            }
+
+            /* #logo{
+                width: 25vw;
+                height: auto;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+
+                background-color:rgb(233, 120, 21);
+
+                transform: rotateZ(6deg);
+            }
+
+            #text{
+                width: 100vw;
+                text-align: center;
+
+                font-family: "National Park", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: '400';
+                font-style: normal;
+                
+                font-size: 26px;
+            }
+
+            #bio{
+                width: 50vw;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                transform: rotateZ(-2deg);
+                padding: 20px;
+                background-color: rgb(181, 99, 12);
+                color: whitesmoke;
+            }
+
+            #links{
+                transform: rotateZ(5deg);
+            }
+
+            #links a{
+                background-color: rgb(230, 81, 7);
+                color: whitesmoke;
+                padding: 10px;
+            } */
+
+            #logo{
+                width: 50vw;
+                height: auto;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: -70px;
+                margin-bottom: -20px;
+                padding-bottom: 0px;
+                z-index: 100000;
+                /* transform: rotateZ(6deg); */
+
+                filter: drop-shadow(0 0 5px rgb(20, 7, 7));
+                transition: 1s;
+            }
+
+            #logo:hover{
+                
+                transform: rotateZ(20deg);
+                
+                filter: drop-shadow(0 0 1px rgb(137, 55, 21));
+            }
+
+            #text{
+                width: 100vw;
+                text-align: center;
+                font-family: "National Park", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: '400';
+                font-style: normal;
+                font-size: 16px;
+                color: rgb(20, 7, 7);
+            }
+
+            #bio{
+                width: 40vw;
+                display: block;
+                margin: auto;
+                transform: rotateZ(-2deg);
+                padding: 20px;
+                margin-bottom: 15px;
+                background-color:rgb(255, 246, 230);
+                border: 1px solid rgb(20, 7, 7);
+            }
+
+            #links{
+                transform: rotateZ(3deg);
+                /* filter: drop-shadow(-4px -2px 3px rgba(13, 13, 13, 0.2)); */
+            }
+
+            #links a{
+                background-color: rgb(255, 246, 230);
+                padding: 10px;
+                border: 1px solid rgb(13, 13, 13);
+                cursor: pointer;
+                text-decoration: none;
+                color: rgb(20, 7, 7);
+            }
+
+            #links a:hover{
+                background-color: rgb(78, 46, 16);
+                color: rgb(255, 246, 230);
+            }
+
+
+
+            @media screen and (min-width: 480px){
+                #logo{
+                    width: 40vw;
+
+                }
+            }
+        </style>
     </head>
 
     <body>
-        <div class="bigCon">
-            <!-- <div></div> -->
+        <div id="bigCon">
+            
+            <!-- <img id="logo" src="assets/tsz/tsz_logo_white.png"> -->
+             
+            <img id="logo" src="assets/tsz/tszlogo_beige.png" >
 
-            <div class="stripCon ak">
-                <div class="profile">
-                    <h1><a href="https://www.instagram.com/aaryakini" target="_blank">Aarya Kini</a></h1>
-                    <img src="assets/ak/1harmReductionReader.png">
-                    <img src="assets/ak/2handbook.gif">
-                    <img src="assets/ak/3posters.png">
-                    <img src="assets/ak/4experienceVault.png">
-                    <img src="assets/ak/5lighters.png">
-                    <img src="assets/ak/6stickers.png">
-                    <img src="assets/ak/7crowsAndMe.png">
-                </div>
+            <div id="text">
+                <p id="bio">
+                    The Sh!t Zine is a collective of five bookmakers, screenprinters, and riso enthusiasts who see beauty in chaos, celebrate the unexpected, and embrace the messiness of creativity. Inspired by the intimate act of shitting, our process is a continuously iterative one, where we individually draw inspiration from a myriad of sources, assimilate it together, and collectively produce new work, discarding whatever doesn’t resonate along the way. 
+                </p>
 
-                <div class="profile rr">
-                    <h1><a href="https://www.instagram.com/randrivera" target="_blank">Rand Rivera</a></h1>
-                    <img src="assets/rr/flower.png">
-                    <img src="assets/rr/teeth.png">
-                    <img src="assets/rr/readingreader.png">
-                    <img src="assets/rr/monalisa.png">
+                <div id="links">
+                    <a target="_blank" href="individualwork.html">individual work ↗</a>
+                    <a target="_blank" href="https://www.instagram.com/theshitzine/">instagram ↗</a>
+                    <a target="_blank" href="https://www.theshitzine.com/?fbclid=PAZXh0bgNhZW0CMTEAAacpgOMGE5dNnK_E8tw_5sJWRF0rCWWqK8X2S-v2zPIJEiondfMclq4gKQX9AQ_aem_1e2ULatFTcK8jjYVrfvVFA">toilet ↗</a>
                 </div>
-
-                <div class="profile wh">
-                    <h1><a href="https://www.instagram.com/wilverhsu" target="_blank">William Hsu</a></h1>
-                    <img src="assets/wh/solarCycleFIT.gif">
-                    <img src="assets/wh/macbookbook3.png">
-                    <img src="assets/wh/fruity.png">
-                    <img id="altThumbnail" src="assets/wh/bathroom.png">
-                    <img src="assets/wh/scenedetee.png">
-                    <img src="assets/wh/floppy.png">
-                    
-                </div>
-                
-                <div class="profile wt">
-                    <h1><a href="https://www.instagram.com/wutongwutongworks" target="_blank">Wu Tong</a></h1>
-                    <img src="assets/wt/256Apples.png">
-                    <img id="altThumbnail" src="assets/wt/daffodils.jpg">
-                    <img src="assets/wt/home.gif">
-                    <img src="assets/wt/Project_04_TheTree_BookScans.002.png">
-                    <img src="assets/wt/akzidenzGrotesk.png">
-                    <img src="assets/wt/Scans_Letterpress_WF_!exports!2.png">
-                    <img src="assets/wt/tcm.png">
-                    <img src="assets/wt/Web——Composition(i5).png">
-                </div>
-
-                <div class="profile yz">
-                    <h1><a href="https://www.instagram.com/yixiaozyx" target="_blank">Yixiao Zhao</a></h1>
-                    <img src="assets/yz/1.png">
-                    <img src="assets/yz/2.jpeg">
-                    <img src="assets/yz/3.png">
-                    <img src="assets/yz/4.png">
-                    <img src="assets/yz/5.jpeg">
-                    <img src="assets/yz/6.jpeg">
-                </div>
-
             </div>
 
-            <footer>
-                <p>...this website displays the distinct works of the designers at Sh!t Zine & Friends...reach us <a href="https://www.instagram.com/theshitzine/" target="_blank">@TheShitZine</a> on Instagram or <a href="href="mailto:theshitzine@gmail.com"">theshitzine@gmail.com</a> on email...</p>
-            </footer>
+
         </div>
+
+        
         
         <script src="" async defer></script>
     </body>
